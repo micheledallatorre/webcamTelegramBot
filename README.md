@@ -9,6 +9,13 @@ Telegram Bot to show public webcam images
 git clone ssh://<REMOVED>.rhcloud.com/~/git/testbot.git/
 cd testbot/
 ```
+
+** Add all the dependencies you need, e.g.:
+```bash
+npm install -S node-telegram-bot-api 
+npm-install -S request
+```
+
 * Edit the package.json file created, using name with the same name of the folder/project in openshift, e.g.
 ```javascript
 {
